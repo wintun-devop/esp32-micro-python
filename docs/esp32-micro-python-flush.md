@@ -19,5 +19,5 @@ esptool --chip esp32 --port COM5 erase_flash
 ```
 ## Write MicroPython to wemos d1 flush
 ```
-esptool --chip esp32 --port COM5 write_flash -z 0x1000 ESP32_GENERIC-20240602-v1.23.0.bin
+esptool --chip esp32 --port COM5 write_flash -z 0x1000 ESP32_GENERIC-20250415-v1.25.0.bin
 ```
