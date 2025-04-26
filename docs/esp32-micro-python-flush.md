@@ -21,3 +21,8 @@ esptool --chip esp32 --port COM5 erase_flash
 ```
 esptool --chip esp32 --port COM5 write_flash -z 0x1000 ESP32_GENERIC-20250415-v1.25.0.bin
 ```
+
+### Micropython IMU Site
+```
+https://github.com/micropython-IMU
+```
