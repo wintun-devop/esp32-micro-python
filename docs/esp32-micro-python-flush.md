@@ -15,14 +15,19 @@ pip install esptool
 ```
 ## Check the com port and erase flash(here my chip is esp8266)
 ```
-esptool --chip esp32 --port COM5 erase_flash
+esptool --chip esp32 --port COM3 erase-flash
 ```
 ## Write MicroPython to wemos d1 flush
 ```
-esptool --chip esp32 --port COM5 write_flash -z 0x1000 ESP32_GENERIC-20250415-v1.25.0.bin
+esptool --chip esp32 --port COM3 write-flash -z 0x1000 ESP32_GENERIC-20250809-v1.26.0.bin
 ```
 
 ### Micropython IMU Site
 ```
 https://github.com/micropython-IMU
+```
+
+###
+```
+esptool --port COM3 chip-id
 ```
