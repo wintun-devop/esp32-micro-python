@@ -59,5 +59,5 @@ ampy --port COMx rm AmazonRootCA1.pem
 ```
 - list file
 ```
-
+ampy --port COMx ls
 ```
