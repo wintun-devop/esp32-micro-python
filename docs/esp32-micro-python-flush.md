@@ -31,3 +31,21 @@ https://github.com/micropython-IMU
 ```
 esptool --port COM3 chip-id
 ```
+
+### micro python command line interaction
+```
+pip install adafruit-ampy
+```
+- deliver file to micropython
+```
+ampy --port COMx put certificate.pem.crt
+ampy --port COMx put private.pem.key
+ampy --port COMx put AmazonRootCA1.pem
+```
+
+- deliver file to micropython with serial specific rate
+```
+ampy --port COMx put -b 115200 certificate.pem.crt
+ampy --port COMx put -b 115200 private.pem.key
+ampy --port COMx put -b 115200 AmazonRootCA1.pem
+```
