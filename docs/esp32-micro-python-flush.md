@@ -49,3 +49,15 @@ ampy --port COMx put -b 115200 certificate.pem.crt
 ampy --port COMx put -b 115200 private.pem.key
 ampy --port COMx put -b 115200 AmazonRootCA1.pem
 ```
+
+- delete file
+```
+ampy --port COMx rm certificate.pem.crt
+ampy --port COMx rm private.pem.key
+ampy --port COMx rm AmazonRootCA1.pem
+
+```
+- list file
+```
+
+```
